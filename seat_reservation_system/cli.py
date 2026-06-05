@@ -8,7 +8,7 @@ cancel <seat_id> [name]   - Cancel a reservation
 status <seat_id>          - Show seat status
 stats                     - Show summary stats
 help                      - Show this help
-exit                      - Exit the program"""
+exit / quit               - Exit the program"""
 
 
 def run_cli():
