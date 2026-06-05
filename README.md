@@ -75,11 +75,11 @@ pytest -q
 
 ```text
 seat_reservation_system/
+├─ __init__.py  # 패키지 초기화 파일
 ├─ cli.py       # CLI 루프 및 명령 처리
-├─ seat_store.py      # 좌석 저장소 및 예약 로직
-├─ seats.py     # 기본 좌석 템플릿
 ├─ main.py      # 실행 진입점
-└─ __main__.py  # python -m 실행 진입점
+├─ seat_store.py      # 좌석 저장소 및 예약 로직
+└─ seats.py     # 기본 좌석 템플릿
 ```
 
 ## 🗺️ Roadmap
